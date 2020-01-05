@@ -1,0 +1,17 @@
+
+This is the field layout in the Road Runner coordinate system.
+                 (+x)
+                   |
+                   |
+                   | f (foundation)
+                   |
+                   |
+(+y)-------------(0,0)-------------(-y)
+                   |
+                   | s (stones)
+                   | s
+                   | s
+                   |
+                 (-x)
+
+
