@@ -13,7 +13,4 @@ import org.firstinspires.ftc.robotcore.external.navigation.Rotation;
  */
 @MotorType(ticksPerRev = 537.6, gearing = 19.2, maxRPM = 340, orientation = Rotation.CW)
 @DeviceProperties(xmlTag="NeveRestOrbital20Gearmotor", name="NeveRest Orbital 20 Gearmotor", builtIn = false)
-@DistributorInfo(distributor="AndyMark", model="am-3637", url="https://www.andymark.com/products/neverest-orbital-20-gearmotor")
-@ExpansionHubPIDFVelocityParams(P=0, I=0, F=0)
-@ExpansionHubPIDFPositionParams(P=0)
 public interface NeveRestOrbital20Gearmotor {}

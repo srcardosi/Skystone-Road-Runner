@@ -57,7 +57,7 @@ public class TwoWheelLocalizer extends TwoTrackingWheelLocalizer {
         BNO055IMU.Parameters parameters = new BNO055IMU.Parameters();
         parameters.angleUnit = BNO055IMU.AngleUnit.RADIANS;
         imu.initialize(parameters);
-        BNO055IMUUtil.remapAxes(imu, AxesOrder.ZYX, AxesSigns.NPN);//Rempaing the axis for a vertical hub
+        BNO055IMUUtil.remapAxes(imu, AxesOrder.XYZ, AxesSigns.NPN);//Rempaing the axis for a vertical hub
     }
 
     public static double encoderTicksToInches(int ticks) {
